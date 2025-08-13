@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Xin Chào Quý Khách</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff8dc;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #8b0000;
+      font-size: 36px;
+    }
+    p {
+      font-size: 20px;
+      color: #333;
+    }
+    img {
+      width: 250px;
+      border-radius: 50%;
+      margin-top: 20px;
+    }
+    button {
+      margin-top: 30px;
+      padding: 10px 20px;
+      background-color: #8b0000;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #a52a2a;
+    }
+  </style>
+</head>
+<body>
+  <h1>Xin chào! 👋</h1>
+  <p>Tôi là <strong>Hậu Pịa</strong> – rất vui được gặp bạn!</p>
+  <img src="https://picsum.photos/250" alt="Ảnh đại diện ngẫu nhiên">
+  <br>
+  <button onclick="alert('Chúc bạn một ngày tuyệt vời!')">Gửi lời chào</button>
+</body>
+</html>
